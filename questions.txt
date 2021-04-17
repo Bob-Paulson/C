@@ -1,0 +1,3 @@
+int a = 345;
+printf("%1d\n");
+# why will be output "345" instead of "3"
