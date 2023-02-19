@@ -1,3 +1,22 @@
 int a = 345;
 printf("%1d\n");
-# why will be output "345" instead of "3"
+// why will be output "345" instead of "3"
+
+/*******************************************/
+
+#include <stdio.h>
+
+int main ()
+{
+    int a=1;
+    float b=1E+12;
+    
+    float c=a/b;
+    printf("%f= %i / %f\n",c,a,b);
+    
+    float d=a/c;
+    printf("%f = %i / %f\n",d,a,c);
+    
+    return 0;
+}
+//why we can divide on 0.000
